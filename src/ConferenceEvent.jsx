@@ -1,5 +1,7 @@
 import React, { useState } from "react";
 import "./ConferenceEvent.css";
+import { useSelector, useDispatch } from "react-redux";
+import { incrementQuantity, decrementQuantity } from "./venueSlice";
 import TotalCost from "./TotalCost";
 import { useSelector, useDispatch } from "react-redux";
 import { incrementQuantity, decrementQuantity } from "./venueSlice";
