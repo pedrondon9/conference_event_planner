@@ -25,3 +25,6 @@ const TotalCost = ({ totalCosts, ItemsDisplay }) => {
 };
 
 export default TotalCost;
+
+
+
